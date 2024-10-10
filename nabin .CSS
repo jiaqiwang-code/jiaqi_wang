@@ -1,0 +1,92 @@
+.container1{
+    max-width: 1462px;
+    margin: auto;
+    padding: 0 8;
+    max-height: 3040px;
+    margin-left:229px;
+    margin-left:229px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    padding: 30px 0;
+    width: 1760px;
+    height: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: #ffffff;
+    display: flex;
+    font-family: Trebuchet MS;
+
+
+}
+
+nav h1 {
+    margin-right: 400px;
+
+}
+
+nav h2 {
+    margin-left: 500px;
+}
+
+nav p {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 50px;
+}
+
+#first {
+    background-image: url(haikei\ it1.jpg);
+    background-size:cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.center-text{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Trebuchet MS;
+   margin-top: 300px;
+
+}
+#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 120px;
+    flex-direction: column;
+}
+#second img{
+    width: 600px; /* 设置固定宽度 */
+    height: 300px; /* 设置固定高度 */
+    object-fit:fill; /* 保持比例，裁剪图片 */
+}
+.card1{
+    display:flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.text1{
+ max-width: 60%;
+}
+.card1 img{
+    max-width: 30%;
+}
+.card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.text2{
+    max-width: 60%;
+}
+.card2 img{
+    max-width: 30%;
+}
